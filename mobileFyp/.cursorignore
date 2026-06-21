@@ -1,0 +1,43 @@
+# dependencies
+node_modules
+
+# React / RN builds
+build
+dist
+
+# caches
+.cache
+.expo
+.gradle
+.idea
+
+# Android / iOS builds
+android/app/build
+android/build
+ios/build
+ios/Pods
+
+# logs
+*.log
+
+# env files
+.env
+.env.local
+.env.production
+
+# lock files (optional ignore for AI context)
+package-lock.json
+yarn.lock
+
+# large files
+*.mp4
+*.mov
+*.zip
+*.apk
+*.aab
+
+# git
+.git
+
+# misc
+.DS_Store

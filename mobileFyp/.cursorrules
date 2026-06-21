@@ -1,0 +1,47 @@
+# GENERAL RULES
+- Use React Native only (no web code)
+- Do NOT use HTML tags (div, span, section, etc.)
+- Do NOT use Tailwind CSS or any web styling system
+- Use React Native StyleSheet or compatible libraries only
+- Always prefer clean, production-ready code
+
+# PROJECT UNDERSTANDING RULE
+- Treat web-react folder as reference only
+- Never mix web logic into React Native app
+- Do not refactor entire project at once
+- Work screen-by-screen
+
+# FILE SCANNING RULE
+- Only read files explicitly mentioned by user
+- Never scan full repository automatically
+- Avoid unnecessary file analysis
+
+# ARCHITECTURE RULE
+- Use src folder structure in React Native
+- Separate screens by role:
+  admin / teacher / student
+- Use reusable components folder
+- Keep navigation clean and modular
+
+# DEVELOPMENT FLOW RULE
+- First setup navigation
+- Then auth (login/register)
+- Then admin dashboard
+- Then teacher dashboard
+- Then student dashboard
+
+# CODE QUALITY RULE
+- Avoid duplicate components
+- Reuse existing logic
+- Keep code minimal and readable
+- Prefer functional components + hooks
+
+# LIBRARY RULE
+- Use React Navigation for routing
+- Use Zustand or Context for state
+- Use Axios for API calls
+- Use AsyncStorage for token storage
+
+# SAFETY RULE
+- Never assume missing APIs
+- Ask or wait for backend confirmation when needed
