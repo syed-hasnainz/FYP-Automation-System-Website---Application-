@@ -172,5 +172,8 @@ npm run ios
 
 # 👨‍💻 Author
 
-Final Year Project – Automation System  
-Built with Next.js + React Native
+SYED HASNAIN ZAIDI
+
+ABDULLAH SHAMIL
+
+SANAULLAH BALOCH
