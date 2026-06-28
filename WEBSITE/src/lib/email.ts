@@ -8,12 +8,12 @@ function getAdminEmail(): string {
     const settingsPath = path.join(process.cwd(), 'data', 'system-settings.json');
     if (fs.existsSync(settingsPath)) {
       const settings = JSON.parse(fs.readFileSync(settingsPath, 'utf-8'));
-      return settings.general?.contactEmail || 'ahmedshayan928@gmail.com';
+      return settings.general?.contactEmail || 'hasnainzaidi962@gmail.com';
     }
   } catch (error) {
     console.error('Error reading admin email from settings:', error);
   }
-  return 'ahmedshayan928@gmail.com'; // Fallback
+  return 'hasnainzaidi962@gmail.com'; // Fallback
 }
 
 // Create email transporter using Gmail or other SMTP service
